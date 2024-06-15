@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: large;
+ }
+
+
+h6 {
+    padding-top: 400px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+H3 {
+    text-align: center;
+    font-weight: bold;
+}
+H2 {
+    text-align: center;
+    font-weight: bold;
+}
+em {
+  font-size: 23px;
+}
+#whatsize {
+  width: 100%;
+}
+#pizza-form-submit {
+
+  
+}
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.card-1 {
+  position: absolute;
+  cursor: pointer;
+  min-height: 100%;
+  transition: all 0.5s ease;
+  background: rgba(0, 0, 0, 0.582);
+  width: 100%;
+  opacity: 0;
+}
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.ptag {
+  padding: 5% 0;
+  background-color: #0000004d;
+  padding: 50px 10px;
+  font-weight: 100%;
+  font-family: 'Merienda', cursive;
+  line-height: 90%;
+  margin: 20% 5%;
+  padding-top: 30px;
+  border: 4px solid whitesmoke;
+  font-size: 1.1em;
+  color: white;
+  overflow: hidden;
+  letter-spacing: 2px;
+
+}
+.HomeSlide {
+  height: 150vh;
+}
+.click-me, button[type=submit], .deliver, .delivernot {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 2px;
+  background-color: #ffbf00;
+  outline: none;
+  padding: 12.5px 13px;
+  border: none;
+  border-radius: 33px;
+  font-size: 14px;
+}
+
+.deliver, .delivernot {
+  margin: 10px;
+}
+.cdata {
+  padding: 10px 50px 10px 5px;
+}
+
+.Contacts {
+  text-align: center;
+  color: rgb(38, 206, 16);
+  height: 100vh;
+  padding-top: 50px;
+}
+input {
+  width: 400px;
+  background: transparent;
+  color: white;
+}
+
+textarea {
+  width: 750px;
+  height: 300px;
+  background: transparent;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+.Footer {
+  text-align: center;
+}
