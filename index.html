@@ -288,9 +288,14 @@
                 </form>
             </div><br><br>
             <div class="Footer" text-align="text-center">
-                <footer>
-                    <P>&COPY;Izza PIZZA 2020</P>
-                </footer>
+              <footer>
+                <p>&copy; Izza PIZZA <span id="current-year"></span></p>
+            </footer>
+            
+            <script>
+                document.getElementById("current-year").textContent = new Date().getFullYear();
+            </script>
+            
             </div>
 </body>
 </html>
